@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f24a36ee237b3c0925be"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "a32cd636323578323f65"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -29267,7 +29267,7 @@ const LEVELS = _.chain({
     10: '1:10 000',
     11: '1:10 000',
     12: '1:10 000'
-}).mapValues((value, key) => `${key} - ${value}`).value();
+}).mapValues((value, key) => `${key} - skan ${value}`).value();
 class LayerSelector extends React.Component {
     constructor() {
         super();
